@@ -4,7 +4,7 @@ import socket
 import sys, time
 
 host = len(sys.argv) >= 2 and sys.argv[1] or 'localhost'
-port = len(sys.argv) >= 3 and sys.argv[2] or 3456
+port = len(sys.argv) >= 3 and sys.argv[2] or 34567
 listen_numer = len(sys.argv) >= 4 and sys.argv[3] or 4
 
 connections = dict()
